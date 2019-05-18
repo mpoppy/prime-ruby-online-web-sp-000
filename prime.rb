@@ -7,7 +7,8 @@ def prime?(index)
       return false
     elsif index % n == 0
       return false
-    n += 1
+      n += 1
+    end
   end
   true
 end
