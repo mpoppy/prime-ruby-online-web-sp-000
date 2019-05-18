@@ -4,6 +4,7 @@ def prime?(index)
   n = 2
   if index < 0
     false
+    break
   end
   while n < index
     return false if index % n == 0
