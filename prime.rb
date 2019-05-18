@@ -1,5 +1,5 @@
 
 
 def prime?(index)
-  
+
 end
