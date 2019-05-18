@@ -2,7 +2,7 @@
 #returns true for prime numbers
 def prime?(index)
   n = 2
-  while n < index
+  while n < index && index > 0
     return false if index % n == 0
       n += 1
   end
