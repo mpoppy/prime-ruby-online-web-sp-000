@@ -5,6 +5,7 @@ def prime?(index)
   while n < index
     if
       elsif index % n == 0
+        return false
     n += 1
   end
   true
